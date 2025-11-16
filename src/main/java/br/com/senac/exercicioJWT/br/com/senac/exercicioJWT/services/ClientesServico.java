@@ -19,6 +19,7 @@ public class ClientesServico {
         clientePersist.setNome(cliente.getNome());
         clientePersist.setSobrenome(cliente.getSobrenome());
         clientePersist.setDocumento(cliente.getDocumento());
+        clientePersist.setDataNascimento(cliente.getDataNascimeto());
         clientePersist.setEmail(cliente.getEmail());
 
         clientesRepositorio.save(clientePersist);
